@@ -1,0 +1,11 @@
+h1{
+    color: #55328b;
+}
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('../img/hero-header-bakery.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
