@@ -1,11 +1,107 @@
-h1{
+/*Estilos generales*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #55328b;
+    font-family: 'Source Serif Pro', serif;
+}
+p{
+    font-family: 'Work Sans', sans-serif;
+    color: #636771;
+}
+
+.contenedor {
+    padding-top: 8%;
+    margin-top: 0px;
+    padding-right: 6%;
+    padding-bottom: 4%;
+    margin-bottom: 0px;
+    padding-left: 6%;
+}
+/*Botones*/
+.btn-lila {
+    background-color: #55328b !important;
+    color: #f0edf5;
+}
+
+.btn-lila:hover {
+    background-color: #f0edf5 !important;
     color: #55328b;
 }
+
+.btn-blanco {
+    background-color: #FFF !important;
+    color: #55328b;
+}
+
+.btn-blanco:hover {
+    background-color: #55328b !important;
+    color: #FFF;
+}
+
+/*Estilos barra de navegación*/
+.texto-lila {
+    color: #55328b !important;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+}
+.navbar-nav>li {
+    float: left;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .active a::after {
+    border-top: 2px solid #55328b;
+    top: calc(50% + 1.15em);
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 100%;
+    border-top-style: solid;
+    transition: transform .2s ease-in-out;
+}
+
+/*Estilos vista móvil*/
+@media (max-width: 767px) {
+    .navbar-fixed-top {
+        position: relative;
+        top: auto;
+    }
+
+    .navbar-collapse {
+        max-height: none;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    .navbar-light .navbar-nav .active a::after {
+        border-top: 0;
+    }
+}
+/*Estilos header*/
 .masthead {
     height: 100vh;
-    min-height: 500px;
-    background-image: url('../img/hero-header-bakery.jpg');
+    min-height: 800px;
+    background-image: url('../img/header-panaderia.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
+}
+
+/*Estilos tarjetas */
+.card-blur {
+    position: absolute;
+    height: 100%;
+    width: calc(100% + 1px);
+    background-color: black;
+    opacity: 0;
+    transition: opacity 0.15s ease-in;
+}
+
+.card:hover .card-blur {
+    opacity: 0.3;
+}
