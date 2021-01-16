@@ -2,10 +2,10 @@
 title: Manuel Carmona
 email: manucarcor@gmail.com
 url: https:///manuelcarmona.github.io/index.html
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+description: "Soy desarrollador Web con más de 20 años de experiencia. Doy servicio a PYMEs con el ánimo de darles visibilidad en internet y que lleven su negocio al siguiente nivel."
+keywords: "Manuel Carmona, Desarrollo web, diseño web, ux, ui, freelance"
+skills: "Desarrollador Web - Diseñador UX/UI"
+meta_author: Manuel Carmona
 
 # Google webmaster tools
 google_verify:
@@ -34,16 +34,16 @@ color:
 footer:
   copyright: Manuel Carmona
   location: Asturias
-  social: https://twitter.com/ManuelC06422742
+  social: social
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: https://twitter.com/ManuelC06422742
-  - title: facebook
-    url:
-  - title: stack-overflow
+  - title: linkedin
+    url: https://www.linkedin.com/in/manuel-carmona-5b28531a4/
+  - title: instagram
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
@@ -52,8 +52,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Calle La Olga 9
+  - line: Navia, Asturias 33710
 
 # Credits content
 credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
