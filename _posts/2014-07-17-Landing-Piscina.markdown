@@ -8,5 +8,5 @@ project-date: April 2014
 client: Swimmers
 category: Landing Page
 description: Plantilla para actividades de natación, adaptable a casi cualquier negocio relacionado con el deporte. Realizada con bootstrap, HTML5 y CSS.
-url: https://manuelcarmona.github.io/demos/piscina/index.html
+url: manuelcarmona.github.io/demos/piscina/index.html
 ---
