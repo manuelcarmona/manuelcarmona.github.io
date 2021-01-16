@@ -63,6 +63,14 @@ p{
     transition: transform .2s ease-in-out;
 }
 
+/*Estilos ubicación*/
+.fondo-oviedo{
+    background-color: #F1F9FB;
+}
+.fondo-navia{
+    background-color: #FAF3E3;
+}
+
 /*Estilos vista móvil*/
 @media (max-width: 767px) {
     .navbar-fixed-top {
@@ -101,7 +109,6 @@ p{
     opacity: 0;
     transition: opacity 0.15s ease-in;
 }
-
 .card:hover .card-blur {
     opacity: 0.3;
 }

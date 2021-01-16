@@ -19,7 +19,7 @@
         <div class="d-flex flex-grow-1 px-4">
             <span class="w-100 d-lg-none d-block">
                 <!-- Espacio oculto para centrar el logo en móvil --></span>
-            <a class="navbar-brand d-none d-lg-inline-block" href="#">
+            <a class="navbar-brand d-lg-inline-block" href="#">
                 <img src="assets/img/bakery-logo.webp" alt="panadería" width="198" height="96">
             </a>
             <div class="w-100 text-right">
@@ -81,14 +81,14 @@
     <!-- Primer contenido con 2 columnas -->
     <div class="contenedor">
         <div class="row">
-            <div class="col-4">
+            <div class="col-sm-12 col-md-4">
                 <p class="muted">OUR PRODUCTS</p>
                 <h2 class="my-2">All our delectable pastries are backed fresh in our Kitchen very morning, and are made
                     with all-natural, all organic ingredients.</h2>
                 <button type="button" class="btn btn-lila my-5">Start Shopping</button>
             </div>
             <!-- Dos tarjetas con productos a la derecha-->
-            <div class="col-8">
+            <div class="col-sm-12 col-md-8">
                 <div class="row row-cols-1 row-cols-md-2 g-4">
                     <!-- Columna izquierda -->
                     <div class="col">
@@ -96,10 +96,10 @@
                             <img src="assets/img/galletas.webp" class="card-img" alt="...">
                             <div class="card-blur"></div>
                             <div class="card-img-overlay d-flex">
-                                <div class="card-body text-light text-center align-self-center mx-auto">
-                                    <h5 class="card-title">Choco chip cookie</h5>
-                                    <p class="card-text">Cookies, Pastry</p>
-                                    <p class="card-text">18,00 €</p>
+                                <div class="card-body text-center align-self-center mx-auto">
+                                    <h5 class="card-title text-light">Choco chip cookie</h5>
+                                    <p class="card-text text-light">Cookies, Pastry</p>
+                                    <p class="card-text text-light">18,00 €</p>
                                 </div>
                             </div>
                         </div>
@@ -111,9 +111,9 @@
                             <div class="card-blur"></div>
                             <div class="card-img-overlay d-flex">
                                 <div class="card-body text-light text-center align-self-center mx-auto">
-                                    <h5 class="card-title">Choco chip cookie</h5>
-                                    <p class="card-text">Cookies, Pastry</p>
-                                    <p class="card-text">18,00 €</p>
+                                    <h5 class="card-title text-light ">Choco chip cookie</h5>
+                                    <p class="card-text text-light ">Cookies, Pastry</p>
+                                    <p class="card-text text-light">18,00 €</p>
                                 </div>
                             </div>
                         </div>
@@ -130,10 +130,10 @@
             <h2>Baking Special Moments</h2>
         </div>
         <div class="row">
-            <div class="col">
+            <div class="col-sm-12 col-md-6 py-3">
                 <img src="assets/img/corporate-bg.jpg" class="img-fluid" alt="...">
             </div>
-            <div class="col">
+            <div class="col-sm-12 col-md-6 py-3">
                 <img src="assets/img/wedding-bg.jpg" class="img-fluid" alt="...">
             </div>
         </div>
@@ -142,14 +142,14 @@
     <!-- Contenido con varios productos y texto izquierda -->
     <div class="contenedor">
         <div class="row">
-            <div class="col-3 text-center">
+            <div class="col-sm-12 col-md-3 text-center">
                 <h2 class="my-2">Find a freshly baked product perfect for you</h2>
                 <p>Integer a nibh vitae ex porttitor rutrum et ut velit. Etiam ac felis at leo feugiat placerat. Sed ac
                     nulla id orci tempor convallis sed.</p>
                 <button type="button" class="btn btn-lila my-5">Start Shopping</button>
             </div>
             <!-- Dos tarjetas con productos a la derecha-->
-            <div class="col-9">
+            <div class="col-sm-12 col-md-9">
                 <div class="row row-cols-1 row-cols-md-4 g-4">
                     <!-- item1 -->
                     <div class="col">
@@ -221,7 +221,7 @@
         <div class="card-group">
             <div class="card">
                 <img src="assets/img/new-york-bk.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
+                <div class="card-body fondo-oviedo">
                     <h5 class="card-title text-center display-6">Oviedo</h5>
                     <div class="row">
                         <div class="col">
@@ -231,14 +231,39 @@
                             <p class="card-text">OPEN ALL WEEK</p>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-lila">Ver mapa</button>
+                            <button type="button" class="btn btn-blanco" data-bs-toggle="modal"
+                                data-bs-target="#modaloviedo">Ver mapa</button>
+                            <div class="modal fade" id="modaloviedo" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="modaloviedoLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modaloviedoLabel">Panadería Ovideo</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46405.77119074459!2d-5.883677220615624!3d43.36948150766019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd368c9a60ac1c67%3A0x3134440ecc5e6224!2sOviedo%2C%20Asturias!5e0!3m2!1ses!2ses!4v1610648431201!5m2!1ses!2ses"
+                                                width="100%" height="450" frameborder="0" style="border:0;"
+                                                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
             </div>
             <div class="card">
                 <img src="assets/img/london-bk.jpg" class="card-img-top" alt="...">
-                <div class="card-body bg-warning">
+                <div class="card-body fondo-navia">
                     <h5 class="card-title text-center display-6">Navia</h5>
                     <div class="row">
                         <div class="col">
@@ -248,14 +273,63 @@
                             <p class="card-text">OPEN ALL WEEK</p>
                         </div>
                         <div class="col">
-                            <button type="button" class="btn btn-lila">Ver mapa</button>
+                            <button type="button" class="btn btn-blanco" data-bs-toggle="modal"
+                                data-bs-target="#modalnavia">Ver mapa</button>
+                            <div class="modal fade" id="modalnavia" data-bs-backdrop="static" data-bs-keyboard="false"
+                                tabindex="-1" aria-labelledby="modalnaviaLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="modalnaviaLabel">Panadería Navia</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92565.60446442087!2d-6.745130120816378!3d43.52996667352253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd315e440b82d489%3A0xcf212a74e5b521e7!2sNavia%2C%20Asturias!5e0!3m2!1ses!2ses!4v1610648487181!5m2!1ses!2ses"
+                                                width="100%" height="450" frameborder="0" style="border:0;"
+                                                allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Understood</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- Footer -->
+    <footer>
+        <div class="contenedor">
+            <div class="row text-white">
+                <div class="container">
+                    <div class="row gy-5">
+                        <div class="col-lg-4 px-5">
+                            <h4 class="font-weight-bold mb-4">NOSOTROS</h4>
+                            <p>Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering
+                                animata corpora quaeritis. Summus brains sit​​.</p>
+                        </div>
+                        <div class="col-lg-4 px-5">
+                            <h4 class="font-weight-bold mb-4">CREDITOS</h4>
+                            <a href="https://www.freepik.com/free-photos-vectors/water">Water psd created by freepik -
+                                www.freepik.com</a>
+                        </div>
+                        <div class="col-lg-4 px-5 text-center">
+                            <h4 class="font-weight-bold mb-4">CONTACTANOS</h4>
+                            <p class="ml-3">(01) 555 5555</p>
+                            <p class="ml-3">Jr. lorem ipsum #777</p>
+                            <p class="ml-3">andygeek@andygeek.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
     </script>
