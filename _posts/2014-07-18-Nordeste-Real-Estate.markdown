@@ -8,4 +8,5 @@ project-date: Septiembre 2020
 client: Nordeste Real Estate
 category: Desarrollo Web
 description: Desarrollo Web en Wordpress para una nueva empresa inmobiliaria con sede en Asturias. Gestión de viviendas, SEO básico, SERP y sistema de comunicaciones.
+url: https://www.nordesterealestate.com
 ---
