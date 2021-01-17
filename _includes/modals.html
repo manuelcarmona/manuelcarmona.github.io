@@ -37,9 +37,9 @@
                                         </strong>
                                     </li>
                                 {% endif %}
-                                {% if post.url %}
+                                {% if post.external_url %}
                                     <li>URL:
-                                        <strong><a href="#">{{ post.url }}</a>
+                                        <strong><a href="{{ post.external_url }}">[{{ post.title }}]({{ post.external_url }})</a>
                                         </strong>
                                     </li>
                                 {% endif %}
