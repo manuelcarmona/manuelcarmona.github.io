@@ -1,0 +1,15 @@
+{
+  "name": "panaderia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css assets/sass/custom.css --content index.html --output assets/css/reducido.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta1"
+  }
+}
